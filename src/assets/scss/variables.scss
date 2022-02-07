@@ -1,0 +1,22 @@
+$search-wrapper-background: #353335;
+$main-color: #336edc;
+$blur-color: rgba(0, 0, 0, 0.5);
+$warning-color: white;
+$pagination-background: #40545b;
+$button-text-color: white;
+
+$image-width: 350px;
+$image-height: 250px;
+
+@mixin flex($justify-content: flex-start, $align-items: flex-start, $flex-direction: row, $flex-wrap: nowrap) {
+  display: flex;
+  flex-direction: $flex-direction;
+  justify-content: $justify-content;
+  align-items: $align-items;
+  flex-wrap: $flex-wrap;
+}
+
+:export {
+  imageWidth: $image-width;
+  imageHeight: $image-height;
+}

@@ -1,0 +1,24 @@
+@import '../../assets/scss/variables';
+
+.favorite-container {
+  header {
+    @include flex(center, center);
+    margin: 50px 0 0;
+
+    svg {
+      margin-right: 20px;
+    }
+  }
+
+  .warning {
+    @include flex(center, center);
+    margin-top: 50px;
+
+    span {
+      margin-left: 15px;
+      font-size: 1.5em;
+      color: $warning-color;
+      font-weight: bold;
+    }
+  }
+}

@@ -1,0 +1,8 @@
+@import '../../assets/scss/variables';
+
+.image-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, $image-width);
+  grid-gap: 1rem;
+  justify-content: space-around;
+}

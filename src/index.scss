@@ -1,0 +1,11 @@
+@import 'assets/scss/variables';
+
+html {
+  height: 100%;
+  background-color: $main-color;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
